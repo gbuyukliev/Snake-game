@@ -17,3 +17,10 @@ Run the main.rb file.
 - Make apple spawn restrictions so they cannot spawn within walls or the snake's body.
 - Make a working save/load method.
 - Improve collision with apples when coming from right or down.
+
+
+# Controls
+- Press P to pause
+- Press Esc to exit the game
+- Pres 1 to 5 in-game to dynamically change the difficulty
+- Prezz 9 and 10 for 'secret' cheats.
