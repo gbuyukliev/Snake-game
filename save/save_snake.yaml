@@ -1,0 +1,67 @@
+--- &1 !ruby/object:Snake
+window: &2 !ruby/object:GameWindow
+  __swigtype__: _p_Gosu__Window
+  background_image: !ruby/object:Gosu::Image
+    __swigtype__: _p_Gosu__Image
+  background_image_black: !ruby/object:Gosu::Image
+    __swigtype__: _p_Gosu__Image
+  font: !ruby/object:Gosu::Font
+    __swigtype__: _p_Gosu__Font
+  snake: *1
+  apple: !ruby/object:Apple
+    window: *2
+    x: 342
+    y: 451
+  wall: !ruby/object:Wall
+    window: *2
+  paused: false
+  game_over: false
+  level: 1
+  apples_to_collect: 14
+  score: 20
+  save_speed: 4
+direction: :left
+length: 0
+speed: 4
+segments:
+- !ruby/object:Segment
+  window: *2
+  x: 276
+  y: 295.5
+- !ruby/object:Segment
+  window: *2
+  x: 272
+  y: 295.5
+- !ruby/object:Segment
+  window: *2
+  x: 268
+  y: 295.5
+- !ruby/object:Segment
+  window: *2
+  x: 264
+  y: 295.5
+- !ruby/object:Segment
+  window: *2
+  x: 260
+  y: 295.5
+- !ruby/object:Segment
+  window: *2
+  x: 256
+  y: 295.5
+- !ruby/object:Segment
+  window: *2
+  x: 252
+  y: 295.5
+- !ruby/object:Segment
+  window: *2
+  x: 248
+  y: 295.5
+- !ruby/object:Segment
+  window: *2
+  x: 244
+  y: 295.5
+- &3 !ruby/object:Segment
+  window: *2
+  x: 240
+  y: 295.5
+head: *3
