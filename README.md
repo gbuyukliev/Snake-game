@@ -20,7 +20,7 @@ Run the main.rb file.
 
 
 # Controls
-- Press P to pause
-- Press Esc to exit the game
-- Press 1 through 5 in-game to dynamically change the difficulty
+- Press P to pause.
+- Press Esc to exit the game.
+- Press 1 through 5 in-game to dynamically change the difficulty.
 - Press 9 and 10 for 'secret' cheats.
